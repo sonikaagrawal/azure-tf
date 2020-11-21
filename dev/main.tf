@@ -1,5 +1,5 @@
-module "mydev" {
-   source = "/Users/sonika/source/azure-tf/module/template.tf"
+module "dev" {
+   source = "../module/template.tf"
    rg = "rg-dev"
    region = "eastus"
 }
