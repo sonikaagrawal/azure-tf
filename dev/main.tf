@@ -1,5 +1,5 @@
 module "dev" {
-   source = "../module/template"
+   source = "..azure-tf/module/template"
    rg = "rg-dev"
    region = "eastus"
 }
