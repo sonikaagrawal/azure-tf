@@ -1,5 +1,5 @@
 module "dev" {
-   source = "/module/template"
+   source = "./module/template"
    rg = "rg-dev"
    region = "eastus"
 }
